@@ -5,7 +5,7 @@ print('Welcome ' + os.getlogin())
 
 friends = []
 i = 0
-maxLengthList = 3
+maxLengthList = 10
 while len(friends) < maxLengthList:
         i += 1
         name = input('Enter name %d: ' %i)
