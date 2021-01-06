@@ -6,7 +6,7 @@ months = ['January', 'February', 'March', 'April', 'May', 'June', 'July', 'Augus
 def month():
     choice = input('> ')
     if choice == '1': # Print all months
-        print(*months, sep=', ')
+        print(*months, sep=', ') # Note that the "*" before "months" makes this print out without the brackets.
     elif choice == '2': # Print months sorted in alphabetical order
         print(*sorted(months), sep=', ')
     elif choice == '3': # Print only first letter of each month
