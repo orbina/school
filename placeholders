@@ -1,0 +1,17 @@
+#!/bin/usr/env python3
+
+value_one = 50
+value_two = 70
+
+
+def placeholder():  # Adding a placeholder function
+    print('This is the placeholder')
+    return
+
+
+if value_one > value_two:
+    print('Value one is bigger')
+else:
+    placeholder()  # Run the placeholder function
+
+print('I added a pass statement above')
