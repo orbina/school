@@ -2,8 +2,7 @@
 import random
 
 print('Enter name of file to write to.')
-user_file_name = input('> ')  # User created filename
-file_name = user_file_name + '.txt'  # Appending .txt to the filename
+file_name = str(input('> ') + '.txt')  # User created filename
 write_to_file = open(file_name, 'w')  # Opening the newly added file
 
 for i in range(1, 101):  # Creating a loop for generating the random numbers
